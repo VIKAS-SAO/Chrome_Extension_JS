@@ -1,0 +1,13 @@
+(function(){
+  
+
+    let p = document.getElementsByTagName('p');
+    for (let i=0;i<p.length;i++){
+        p[i].innerHTML = 'yamraj is here'
+    } 
+    console.log('done')
+
+} )();
+
+
+
